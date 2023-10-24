@@ -6,7 +6,7 @@ function Results() {
   useEffect(() => {
     async function fetchMD() {
       const res = await fetch(
-        "https://cors-com/Youssuf-bakry/markdown-previewer/db.json"
+        "https://my-json-server.typicode.com/Youssuf-bakry/markdown-previewer/db.json"
       );
       const data = await res.json();
       console.log(data);
