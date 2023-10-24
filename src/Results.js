@@ -6,9 +6,8 @@ function Results() {
   useEffect(() => {
     async function fetchMD() {
       const res = await fetch(
-        "https://cors-anywhere.herokuapp.com/https://www.markdownguide.org/api/v1/basic-syntax.json"
+        "https://cors-com/Youssuf-bakry/markdown-previewer/db.json"
       );
-      console.log(res);
       const data = await res.json();
       console.log(data);
       dataApi.current = data;
